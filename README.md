@@ -2,11 +2,11 @@
   Overview
 </h1>
 
-## **Problem Statement**
+## Problem Statement
 This dashboard helps to identify the busiest days and times for business, how many pizzas are made during peak periods, the average order value, and our best and worst-selling pizzas.
 
 ### Steps Followed:
-In this project, we use Microsoft SQL Server and Power BI. Let's review the steps in MS SQL Server:
+In this project, we use **Microsoft SQL Server and Power BI**. Let's review the steps in MS SQL Server:
 1. Import data into SQL Server Management Studio. The datasets are CSV files. Right-click on DB > Tasks > Import Flat File. 
 >[!TIP]
 >Make sure to note the server name, which will be used later to connect to Power BI.
@@ -16,7 +16,7 @@ In this project, we use Microsoft SQL Server and Power BI. Let's review the step
 >[!IMPORTANT]
 >This is done to cross-check the values.
 
-Now, for Power BI:
+**Now, for Power BI:**
 
 1. Load data into Power BI Desktop using Import > SQL Server > Credentials.
 2. Since the sizes of pizzas are S, M, L, XL, XXL, change them to Small, Medium, X-Large, XX-Large using Power Query Editor (Transform Data > Right-click on column > Replace Values > OK > Close & Apply).
@@ -28,7 +28,7 @@ Now, for Power BI:
 8. Use a Donut chart to create percentages for total revenue by category and size, and format it accordingly.
 9. Use a funnel chart for category and total pizzas sold, and format it.
 
-Additional Steps:
+**Additional Steps:**
 
 10. Add slicers and format them.
 11. To get the top 5 and bottom 5, use filters (TOP) while creating visualizations. Add navigator buttons using the Format option.
