@@ -2,7 +2,7 @@
   Overview
 </h1>
 
-## **Problem Statement***
+## **Problem Statement**
 This dashboard helps to identify the busiest days and times for business, how many pizzas are made during peak periods, the average order value, and our best and worst-selling pizzas.
 
 ### Steps Followed:
