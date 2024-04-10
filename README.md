@@ -2,20 +2,22 @@
   Overview
 </h1>
 
-## Problem Statement
+## **Problem Statement***
 This dashboard helps to identify the busiest days and times for business, how many pizzas are made during peak periods, the average order value, and our best and worst-selling pizzas.
+
 ### Steps Followed:
 In this project, we use Microsoft SQL Server and Power BI. Let's review the steps in MS SQL Server:
 1. Import data into SQL Server Management Studio. The datasets are CSV files. Right-click on DB > Tasks > Import Flat File. 
 >[!TIP]
->(Make sure to note the server name, which will be used later to connect to Power BI.)
+>Make sure to note the server name, which will be used later to connect to Power BI.
 2. Use joins to merge all the files and save the result.
 3. Now import the saved file from Step 2, following Step 1. (Make changes to data types while importing because MS SQL will automatically assign the data types when you import, so ensure they are correct before loading the data.)
 4. Try running the queries that you intend to display on Power BI.
 >[!IMPORTANT]
->(This is done to cross-check the values.)
+>This is done to cross-check the values.
 
 Now, for Power BI:
+
 1. Load data into Power BI Desktop using Import > SQL Server > Credentials.
 2. Since the sizes of pizzas are S, M, L, XL, XXL, change them to Small, Medium, X-Large, XX-Large using Power Query Editor (Transform Data > Right-click on column > Replace Values > OK > Close & Apply).
 3. Use DAX (measure) to calculate total revenue (SUM), total pizzas sold (SUM), and total orders (Distinct count - because of duplicates).
