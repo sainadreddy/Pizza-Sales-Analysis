@@ -4,10 +4,11 @@
 
 ## Problem Statement
 This dashboard helps to identify the busiest days and times for business, how many pizzas are made during peak periods, the average order value, and our best and worst-selling pizzas.
-Steps Followed:
+### Steps Followed:
 In this project, we use Microsoft SQL Server and Power BI. Let's review the steps in MS SQL Server:
-•	Step 1: Import data into SQL Server Management Studio. The datasets are CSV files. Right-click on DB > Tasks > Import Flat File. 
-(Make sure to note the server name, which will be used later to connect to Power BI.)
+-- Step 1:Import data into SQL Server Management Studio. The datasets are CSV files. Right-click on DB > Tasks > Import Flat File. 
+>[!IMPORTANT]
+>(Make sure to note the server name, which will be used later to connect to Power BI.)
 •	Step 2: Use joins to merge all the files and save the result.
 •	Step 3: Now import the saved file from Step 2, following Step 1. (Make changes to data types while importing because MS SQL will automatically assign the data types when you import, so ensure they are correct before loading the data.)
 •	Step 4: Try running the queries that you intend to display on Power BI. 
