@@ -39,5 +39,5 @@ In this project, we use **Microsoft SQL Server and Power BI**. Let's review the 
 ![image](https://github.com/sainadreddy/Pizza-Sales-Analysis/assets/63005649/f50ab58e-93c3-444a-a4fa-01aae7e3799c)
 
 **References:**
-1. [Datasets](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales)
+1. Can download [Datasets](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales) from Kaggle.
 
