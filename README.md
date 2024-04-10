@@ -33,4 +33,8 @@ In this project, we use **Microsoft SQL Server and Power BI**. Let's review the 
 10. Add slicers and format them.
 11. To get the top 5 and bottom 5, use filters (TOP) while creating visualizations. Add navigator buttons using the Format option.
 
+**Snap shots of Dashboards**
+![image](https://github.com/sainadreddy/Pizza-Sales-Analysis/assets/63005649/4c784e6a-260d-4422-9d80-650c98031b2a)
+
+![image](https://github.com/sainadreddy/Pizza-Sales-Analysis/assets/63005649/f50ab58e-93c3-444a-a4fa-01aae7e3799c)
 
