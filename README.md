@@ -19,7 +19,7 @@ In this project, we use **Microsoft SQL Server and Power BI**. Let's review the 
 **Now, for Power BI:**
 
 1. Load data into Power BI Desktop using Import > SQL Server > Credentials.
-2. Since the sizes of pizzas are S, M, L, XL, XXL, change them to Small, Medium, X-Large, XX-Large using Power Query Editor (Transform Data > Right-click on column > Replace Values > OK > Close & Apply).
+2. Since the sizes of pizzas are S, M, L, XL, and XXL, change them to Small, Medium, X-Large, XX-Large using Power Query Editor (Transform Data > Right-click on column > Replace Values > OK > Close & Apply).
 3. Use DAX (measure) to calculate total revenue (SUM), total pizzas sold (SUM), and total orders (Distinct count - because of duplicates).
 4. Calculate (measure) average order value by dividing total revenue by total orders and average pizzas per order by dividing total pizzas sold by total orders.
 5. Add card visuals from the Visualization pane and make necessary formatting adjustments.
