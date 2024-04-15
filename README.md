@@ -40,6 +40,6 @@ In this project, we use **Microsoft SQL Server and Power BI**. Let's review the 
 
 **References:**
 1. Can download [Datasets](https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales) from Kaggle.
-2. [Datasets](https://www.youtube.com/watch?v=V-s8c6jMRN0).
+2. [ref](https://www.youtube.com/watch?v=V-s8c6jMRN0).
 
 
